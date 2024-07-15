@@ -79,6 +79,7 @@ export const sizes = [
 ];
 
 export const footerLinks = [
+  "Ali Razmjooei",
   "Privacy Policy",
   "Terms of Use",
   "Sales Policy",

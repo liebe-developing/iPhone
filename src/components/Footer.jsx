@@ -30,7 +30,17 @@ const Footer = () => {
                 className="font-semibold text-gray text-xs cursor-pointer"
                 key={link}
               >
-                <span className="hover:text-white transition-all">{link} </span>
+                <a
+                  href={
+                    link === "Ali Razmjooei" &&
+                    "https://github.com/liebe-developing"
+                  }
+                  target="_blank"
+                >
+                  <span className="hover:text-white transition-all">
+                    {link}
+                  </span>
+                </a>
 
                 {i !== footerLinks.length - 1 && (
                   <span className="mx-2"> | </span>
